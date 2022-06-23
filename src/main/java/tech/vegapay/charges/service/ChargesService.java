@@ -2,8 +2,8 @@ package tech.vegapay.charges.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tech.vegapay.charges.entity.Charges;
-import tech.vegapay.charges.entity.ChargesDTO;
+import tech.vegapay.charges.entity.charge.Charges;
+import tech.vegapay.charges.entity.charge.ChargesDTO;
 import tech.vegapay.charges.repository.ChargesRepo;
 
 import java.util.List;

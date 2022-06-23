@@ -1,9 +1,9 @@
-package tech.vegapay.charges.entity;
+package tech.vegapay.charges.entity.charge;
 
 import com.google.gson.Gson;
 import lombok.Data;
+import tech.vegapay.charges.entity.ChargeConfig;
 
-import javax.persistence.Column;
 import java.util.UUID;
 
 @Data

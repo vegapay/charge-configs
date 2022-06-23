@@ -1,4 +1,4 @@
-package tech.vegapay.charges.entity;
+package tech.vegapay.charges.entity.charge;
 
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;

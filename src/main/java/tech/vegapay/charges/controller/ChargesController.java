@@ -4,11 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import tech.vegapay.charges.entity.Charges;
-import tech.vegapay.charges.entity.ChargesDTO;
+import tech.vegapay.charges.entity.charge.Charges;
+import tech.vegapay.charges.entity.charge.ChargesDTO;
 import tech.vegapay.charges.service.ChargesService;
 
-import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
